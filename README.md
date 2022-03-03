@@ -1,6 +1,6 @@
 # Axelle-Donot.github.io
 
-# PorteFolio : https://axelle-donot.github.io/index.html
+# PorteFolio : https://axelle-donot.github.io/
 
 Portfolio pour mon CV, ce portefolio contient mon parcours mes projet et mes compétences.
 
