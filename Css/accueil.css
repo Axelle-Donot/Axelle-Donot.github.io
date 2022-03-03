@@ -23,6 +23,7 @@ a[href="index.html"]{
 }
 
 .presentation{
+	border: 5px solid black;
 	background: #E6CBFF;
 }
 
