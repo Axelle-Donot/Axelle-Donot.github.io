@@ -1,0 +1,141 @@
+html{
+	scroll-behavior: smooth;
+	height: 100%;
+}
+
+p, h1 , h2{
+	font-family: system-ui;
+}
+
+h1 {
+	font-size: 40px;
+}
+p {
+	font-size: 20px;
+}
+
+nav {
+	z-index: 1000;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background:black;
+	position : fixed;
+	top : 0px;
+	left: 0px;
+	right: 0px;
+	height: 10%;
+	align-items: center;
+}
+
+nav > div {
+	display: flex;
+	flex-grow: 2;
+	justify-content: space-evenly;
+	color :#BFBFBF;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+a {
+	text-decoration: none;
+	color: #BFBFBF;;
+}
+
+nav p{
+}
+
+nav a:hover {
+	color : white;
+}
+
+main {
+	padding-top: 50px;
+}
+
+.PP {
+	height: 450px;
+}
+
+.presentation , .competences{
+	background: #E5E5E5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+}
+
+.presentation div {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-weight: bold ;
+}
+
+
+
+.competences {
+	display : flex;
+	flex-direction: column;
+}
+
+.competences > div > div {
+	padding : 5%;
+	margin: 2%;
+	width: 10%;
+	border : 2px solid black;
+	border-radius: 10%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+    transition: 0.5s;
+
+}
+.competences > div > div:not(:hover){
+	filter: grayscale(100%);
+}
+
+.competences > div > div:hover{
+	background-color: rgba(#000, 0.5);
+}
+
+.competences img{
+	height: 60px;
+	transition:transform 300ms;   /*temps de transition*/
+}
+
+.competences img:hover{
+	transform: scale(1.09);
+}
+
+.cube{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: space-around;
+}
+
+
+blockquote{
+	color : #B93131;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+footer{
+	width: 100%;
+	bottom: 0;
+	background: black;
+	color: white;
+	position:relative;
+	justify-content: center;
+	display: flex;
+   	height:4%;
+}
+
+
+

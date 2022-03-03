@@ -1,0 +1,48 @@
+a[href="contact.html"]{
+	text-decoration: underline;
+	color: white;
+}
+
+img[src="../Image/bitmoji.png"] {
+	width: 200px;
+
+}
+
+main {
+	background: #DDC0E3;
+	padding-bottom: 3%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box {
+	padding : 5% 20% 5% 20%;   /*haut , droite , bas , gauche*/
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.3);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.123);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+blockquote {
+	padding-top: 20px;
+	color :#1B91C8;
+}
+
+.mail {
+	font-size: 35px;
+}
+
+.mail , .mail~p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.reseau {
+	width: 105%;
+	display: flex;
+	justify-content: space-evenly;
+}

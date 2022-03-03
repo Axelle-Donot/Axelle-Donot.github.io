@@ -1,0 +1,166 @@
+a[href="projet.html"]{
+	text-decoration: underline;
+	color: white;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+main > div:nth-child(1){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #E6CBFF;
+}
+
+main > div:nth-child(1) > div {
+	margin: 20px 0px 20px 0px;
+	max-width: 45%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main > div:nth-child(1) > p {
+	display: flex;
+	flex-grow: 4;
+}
+
+main > div:nth-child(1) > div > h2{
+	position: absolute;
+	font-family: cursive;
+	top :-70px;
+	font-size: 30px;
+}
+
+main > div:nth-child(1) > div > img{
+	max-width: 80%;
+	height: auto;
+}
+
+main > div:nth-child(2){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #CBD2FF;
+}
+
+main > div:nth-child(2) > div {
+	margin: 20px 0px 20px 0px;
+	max-width: 45%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main > div:nth-child(2) > p {
+	display: flex;
+	flex-grow: 4;
+}	
+
+main > div:nth-child(2) > div > h2{
+	position: absolute;
+	font-family: cursive;
+	top :-70px;
+	font-size: 30px;
+}
+
+main > div:nth-child(2) > div > img{
+	max-width: 80%;
+	height: auto;
+}
+
+main > div:nth-child(3){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #CBFFFB;
+}
+
+main > div:nth-child(3) > div {
+	margin: 25px 0px 25px 0px;
+	max-width: 45%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main > div:nth-child(3) > p {
+	display: flex;
+	flex-grow: 4;
+
+}
+
+main > div:nth-child(3) > div > h2{
+	position: absolute;
+	font-family: cursive;
+	top :-75px;
+	font-size: 30px;
+}
+
+main > div:nth-child(3) > div > img{
+	max-width: 80%;
+	height: auto;
+}
+
+main > div:nth-child(4){
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #CBFFCB;
+	margin-bottom: 5%;
+}
+
+main > div:nth-child(4) > div {
+	margin: 20px 0px 20px 0px;
+	max-width: 45%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main > div:nth-child(4) > p {
+	display: flex;
+	flex-grow: 4;
+}
+
+main > div:nth-child(4) > div > h2{
+	position: absolute;
+	font-family: cursive;
+	top :-93px;
+	font-size: 30px;
+}
+
+main > div:nth-child(4) > div > img{
+	max-width: 80%;
+	height: auto;
+}
+
+main div {
+	margin:5% 2% 0% 2% ;
+}
+
+
+img {
+	max-width : 40%;
+    height : auto;
+}
+
+
+.techno {
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.techno p {
+	padding :4px;
+	border: 1px solid black;
+}
