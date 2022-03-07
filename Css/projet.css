@@ -1,5 +1,4 @@
 a[href="projet.html"]{
-	text-decoration: underline;
 	color: white;
 }
 
@@ -29,12 +28,57 @@ main > div:nth-child(1) > p {
 	flex-grow: 4;
 }
 
-main > div:nth-child(1) > div > h2{
-	position: absolute;
+@media screen and (width: 1265px) {
+	main > div:nth-child(1) > div > h2 {
+		position: absolute;
+		font-family: cursive;
+		top :-70px;
+		font-size: 30px;
+	}
+
+	main > div:nth-child(2) > div > h2{
+		position: absolute;
+		font-family: cursive;
+		top :-70px;
+		font-size: 30px;
+	}
+
+	main > div:nth-child(3) > div > h2{
+		position: absolute;
+		font-family: cursive;
+		top :-75px;
+		font-size: 30px;
+	}
+
+	main > div:nth-child(4) > div > h2{
+		position: absolute;
+		font-family: cursive;
+		top :-93px;
+		font-size: 30px;
+	}
+
+}
+
+main > div:nth-child(1) > div > h2 {
 	font-family: cursive;
-	top :-70px;
 	font-size: 30px;
 }
+
+main > div:nth-child(2) > div > h2{
+	font-family: cursive;
+	font-size: 30px;
+}
+
+main > div:nth-child(3) > div > h2{
+	font-family: cursive;
+	font-size: 30px;
+}
+
+main > div:nth-child(4) > div > h2{
+	font-family: cursive;
+	font-size: 30px;
+}
+
 
 main > div:nth-child(1) > div > img{
 	max-width: 80%;
@@ -62,13 +106,6 @@ main > div:nth-child(2) > p {
 	flex-grow: 4;
 }	
 
-main > div:nth-child(2) > div > h2{
-	position: absolute;
-	font-family: cursive;
-	top :-70px;
-	font-size: 30px;
-}
-
 main > div:nth-child(2) > div > img{
 	max-width: 80%;
 	height: auto;
@@ -94,13 +131,6 @@ main > div:nth-child(3) > p {
 	display: flex;
 	flex-grow: 4;
 
-}
-
-main > div:nth-child(3) > div > h2{
-	position: absolute;
-	font-family: cursive;
-	top :-75px;
-	font-size: 30px;
 }
 
 main > div:nth-child(3) > div > img{
@@ -130,13 +160,6 @@ main > div:nth-child(4) > p {
 	flex-grow: 4;
 }
 
-main > div:nth-child(4) > div > h2{
-	position: absolute;
-	font-family: cursive;
-	top :-93px;
-	font-size: 30px;
-}
-
 main > div:nth-child(4) > div > img{
 	max-width: 80%;
 	height: auto;
@@ -163,4 +186,22 @@ img {
 .techno p {
 	padding :4px;
 	border: 1px solid black;
+}
+
+
+/* HOVER */
+main > div:nth-child(1):hover{
+	background: #CF9CFF;
+}
+
+main > div:nth-child(2):hover{
+	background: #A5B1FF;
+}
+
+main > div:nth-child(3):hover{
+	background: #85DED7;
+}
+
+main > div:nth-child(4):hover{
+	background: #98F198;
 }

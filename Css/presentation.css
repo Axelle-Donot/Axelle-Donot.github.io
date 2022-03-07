@@ -1,5 +1,4 @@
 a[href="presentation.html"] {
-  text-decoration: underline;
   color: white;
 }
 
@@ -51,7 +50,6 @@ a[href="presentation.html"] {
 }
 
 .formation > div:nth-child(1){
-  
   background: #CBFFFB;
 }
 
@@ -61,6 +59,18 @@ a[href="presentation.html"] {
 
 .formation > div:nth-child(3){
   background: #E6CBFF;
+}
+
+.formation > div:nth-child(1):hover {
+  background: #85DED7;
+}
+
+.formation > div:nth-child(2):hover {
+  background: #A5B1FF;
+}
+
+.formation > div:nth-child(3):hover {
+  background: #CF9CFF;
 }
 
 
