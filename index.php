@@ -3,28 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>Axelle Donot</title>
-  <link rel="icon" type="image/x-icon" href="../Image/icone.ico">
+  <link rel="icon" type="image/x-icon" href="Image/icone.ico">
   <link rel="stylesheet" href="Css/style.css">
   <link rel="stylesheet" href="Css/accueil.css">
+  <script defer type="text/javascript" src="Js/projet.js"></script>
 </head>
 <body>
   <header>
-    <nav>
-      <div>
-        <p><a href="index.html">Axelle Donot</p>
-      </div>
-      <div>
-        <p> <a href="Pages/presentation.html"> Présentation</p>
-        <p> <a href="Pages/projet.html"> Projet </p>
-        <p> <a href="Pages/contact.html"> Contact </p>
-      </div>
-      <div>
-        <p> <a href="Fichier/CV.pdf"> CV</a> </p>
-      </div>
-    </nav>  
-    <div class="espace">
-      
-    </div>
+    <?php require_once('head.php'); ?>
   </header>
   <main>
     <div class=presentation>
@@ -37,7 +23,7 @@
         <p>Je suis passionée par l'informatique depuis des années, et je propose de mettre à profit mes compétences acquises en DUT et en autodidacte.</p>
       </div>
     </div>
-    <div class=competences>
+    <div class=competences class=reveal>
       <h1>Skills</h1>
       <blockquote>
         <p>Stay hungry Stay foolish !</p>

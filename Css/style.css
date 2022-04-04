@@ -70,5 +70,15 @@ footer{
    	height:4%;
 }
 
+/* Transition d'apparition*/
+.reveal {
+	opacity: 0;
+	transform: translateY(-30px);
+}
 
+.reveal-visible{
+	opacity: 1;
+	transform: translateY(0px);
+	transition: .4s cubic-bezier(.5,0,0,1);
+}
 

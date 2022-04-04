@@ -15,7 +15,7 @@ const callback = function (entries,observer){
 	})
 }
 
-const observer = new IntersectionObserver(callback, options);
+const observer = new IntersectionObserver(callback, option);
 document.querySelectorAll('.reveal').forEach(function(r){
 	observer.observe(r);
 })
