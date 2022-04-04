@@ -205,3 +205,20 @@ main > div:nth-child(3):hover{
 main > div:nth-child(4):hover{
 	background: #98F198;
 }
+
+
+
+
+/* Transition d'apparition*/
+.reveal {
+	opacity: 0;
+	transform: translateY(-30px);
+}
+
+.reveal-visible{
+	opacity: 1;
+	transform: translateY(0px);
+	transition: .1s cubic-bezier(.5,0,0,1);
+}
+
+
