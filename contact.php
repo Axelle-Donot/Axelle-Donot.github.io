@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <?php require_once('head.php'); ?>
+      <?php require_once('head.php'); ?>
   </header>
   <main>
     <div class=box>
